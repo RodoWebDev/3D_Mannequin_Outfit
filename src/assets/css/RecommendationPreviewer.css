@@ -1,0 +1,82 @@
+.Recommendation {
+    display: inline-block;
+    width: 100%;
+}
+
+.Hover {
+    /* background-color: grey; */
+    border: 3px solid grey;
+}
+
+.Selected {
+    /* background-color: black; */
+    border: 3px solid black;
+}
+
+.OutfitPartFabricDisplay {
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+    background-size: contain;
+    flex: 0 0 50%;
+    max-width: 47%;
+}
+
+.TextBackdrop {
+    width: 78px;
+    height: 78px;
+    border: 2px solid white;
+    display: inline-block;
+}
+
+.TextBackdrop h6 {
+    text-align: center;
+    width: 100%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: #000;
+    display: inline-block;
+}
+
+.TextBackdrop p {
+    text-align: center;
+    width: 100%;
+    vertical-align: baseline;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: #000;
+    line-height: 150%;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.HorizontalScrollContainer {
+    /* overflow-y: auto;
+    overflow-x: visible; */
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    bottom: 0;
+    border-left: white 2px solid;
+}
+
+.Col {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.Row {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
